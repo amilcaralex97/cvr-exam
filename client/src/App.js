@@ -14,7 +14,6 @@ function App() {
       <Router>
         <Navigation />
         <Route exact path="/" component={UsersList} />
-        <Route path="/edit/:id" component={UsersList} />
         <Route path="/login" component={Login} />
       </Router>
     </div>

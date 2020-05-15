@@ -42,6 +42,7 @@ export default class UsersList extends Component {
     });
     this.setState({
       username: "",
+      password: "",
     });
     this.getUsers();
   };
